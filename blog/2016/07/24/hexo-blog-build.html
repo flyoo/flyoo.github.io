@@ -87,18 +87,21 @@
 
 
 <meta name="description" content="Hexo介绍Hexo是基于Nodejs开发的一个快速、简洁、高效、开源的静态博客框架，作者是来自台湾的大学生@tommy351。
-Hexo 使用 Markdown（或其他渲染引擎）解析文章，在几秒内，即可利用靓丽的主题生成静态网页。类似于jekyll、Octopress、Wordpress，使用hexo可以创建自己的博客，托管到github或gitcafe上，并且可以绑定自己的域名。">
+Hexo 使用 Markdown（或其他渲染引擎）解析文章，在几秒内，即可利用靓丽的主题生成静态网页。类似于jekyll、Octopress、Wordpress，使用hexo可以创建自己的博客，托管到github或gitcafe上，并且可以绑定自己的域名。
+环境搭建No">
 <meta property="og:type" content="article">
 <meta property="og:title" content="Hexo个人博客搭建">
 <meta property="og:url" content="http://www.myflyoo.xyz/blog/2016/07/24/hexo-blog-build.html">
 <meta property="og:site_name" content="Flyoo-风舍">
 <meta property="og:description" content="Hexo介绍Hexo是基于Nodejs开发的一个快速、简洁、高效、开源的静态博客框架，作者是来自台湾的大学生@tommy351。
-Hexo 使用 Markdown（或其他渲染引擎）解析文章，在几秒内，即可利用靓丽的主题生成静态网页。类似于jekyll、Octopress、Wordpress，使用hexo可以创建自己的博客，托管到github或gitcafe上，并且可以绑定自己的域名。">
-<meta property="og:updated_time" content="2016-07-24T11:34:53.988Z">
+Hexo 使用 Markdown（或其他渲染引擎）解析文章，在几秒内，即可利用靓丽的主题生成静态网页。类似于jekyll、Octopress、Wordpress，使用hexo可以创建自己的博客，托管到github或gitcafe上，并且可以绑定自己的域名。
+环境搭建No">
+<meta property="og:updated_time" content="2016-07-24T11:47:43.437Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="Hexo个人博客搭建">
 <meta name="twitter:description" content="Hexo介绍Hexo是基于Nodejs开发的一个快速、简洁、高效、开源的静态博客框架，作者是来自台湾的大学生@tommy351。
-Hexo 使用 Markdown（或其他渲染引擎）解析文章，在几秒内，即可利用靓丽的主题生成静态网页。类似于jekyll、Octopress、Wordpress，使用hexo可以创建自己的博客，托管到github或gitcafe上，并且可以绑定自己的域名。">
+Hexo 使用 Markdown（或其他渲染引擎）解析文章，在几秒内，即可利用靓丽的主题生成静态网页。类似于jekyll、Octopress、Wordpress，使用hexo可以创建自己的博客，托管到github或gitcafe上，并且可以绑定自己的域名。
+环境搭建No">
 
 
 
@@ -397,37 +400,18 @@ Hexo 使用 Markdown（或其他渲染引擎）解析文章，在几秒内，即
       
         <h1 id="Hexo介绍"><a href="#Hexo介绍" class="headerlink" title="Hexo介绍"></a>Hexo介绍</h1><p>Hexo是基于Nodejs开发的一个快速、简洁、高效、开源的静态博客框架，作者是来自台湾的大学生<a href="https://github.com/hexojs/hexo" target="_blank" rel="external">@tommy351</a>。</p>
 <p>Hexo 使用 Markdown（或其他渲染引擎）解析文章，在几秒内，即可利用靓丽的主题生成静态网页。类似于jekyll、Octopress、Wordpress，使用hexo可以创建自己的博客，托管到github或gitcafe上，并且可以绑定自己的域名。</p>
-<a id="more"></a>
-<h1 id="环境搭建"><a href="#环境搭建" class="headerlink" title="环境搭建"></a>环境搭建</h1><ul>
-<li><p><a href="https://nodejs.org/en/" target="_blank" rel="external">Nodejs</a></p>
-<ul>
-<li><a href="http://www.runoob.com/nodejs/nodejs-install-setup.html" target="_blank" rel="external">Node.js 安装配置    </a><br>我这里使用的是windows，直接下载node-v4.4.3-x64.msi安装包安装即可。</li>
-<li>NPM<br>Nodejs的包管理，windows的安装程序已经内置</li>
-</ul>
-</li>
-<li><p><a href="https://git-scm.com/book/zh/v1/%E8%B5%B7%E6%AD%A5-%E5%AE%89%E8%A3%85-Git" target="_blank" rel="external">git</a>.</p>
-<ul>
-<li>官网下载安装即可</li>
-<li><a href="https://git-scm.com/book/zh/v2/%E8%B5%B7%E6%AD%A5-%E5%85%B3%E4%BA%8E%E7%89%88%E6%9C%AC%E6%8E%A7%E5%88%B6" target="_blank" rel="external">git教程</a></li>
-</ul>
-</li>
-</ul>
-<ul>
-<li><p>安装Hexo</p>
-<ul>
-<li><p>安装</p>
-<pre><code>mkdir hexo  #创建一个文件夹
+<h1 id="环境搭建"><a href="#环境搭建" class="headerlink" title="环境搭建"></a>环境搭建</h1><h2 id="Nodejs"><a href="#Nodejs" class="headerlink" title="Nodejs"></a><a href="https://nodejs.org/en/" target="_blank" rel="external">Nodejs</a></h2><pre><code>- [Node.js 安装配置    ](http://www.runoob.com/nodejs/nodejs-install-setup.html)
+我这里使用的是windows，直接下载node-v4.4.3-x64.msi安装包安装即可。
+- NPM
+ Nodejs的包管理，windows的安装程序已经内置
+</code></pre><h2 id="git"><a href="#git" class="headerlink" title="git."></a><a href="https://git-scm.com/book/zh/v1/%E8%B5%B7%E6%AD%A5-%E5%AE%89%E8%A3%85-Git" target="_blank" rel="external">git</a>.</h2><pre><code>- 官网下载安装即可
+- [git教程](https://git-scm.com/book/zh/v2/%E8%B5%B7%E6%AD%A5-%E5%85%B3%E4%BA%8E%E7%89%88%E6%9C%AC%E6%8E%A7%E5%88%B6)
+</code></pre><h2 id="安装Hexo"><a href="#安装Hexo" class="headerlink" title="安装Hexo"></a>安装Hexo</h2><h3 id="安装"><a href="#安装" class="headerlink" title="安装"></a>安装</h3><pre><code>mkdir hexo  #创建一个文件夹
 cd hexo
 npm install -g hexo-cli
 npm install hexo --save
-</code></pre></li>
-<li><p>部署</p>
-<pre><code>hexo init [folder] #新建一个网站
-</code></pre></li>
-</ul>
-</li>
-</ul>
-<h1 id="常用命令"><a href="#常用命令" class="headerlink" title="常用命令"></a>常用命令</h1><h2 id="创建新文章"><a href="#创建新文章" class="headerlink" title="创建新文章"></a>创建新文章</h2><pre><code>hexo new [layout] &quot;postName&quot; #新建文章
+</code></pre><h3 id="部署"><a href="#部署" class="headerlink" title="部署"></a>部署</h3><pre><code>hexo init [folder] #新建一个网站
+</code></pre><h1 id="常用命令"><a href="#常用命令" class="headerlink" title="常用命令"></a>常用命令</h1><h2 id="创建新文章"><a href="#创建新文章" class="headerlink" title="创建新文章"></a>创建新文章</h2><pre><code>hexo new [layout] &quot;postName&quot; #新建文章
 </code></pre><h2 id="创建草稿文章"><a href="#创建草稿文章" class="headerlink" title="创建草稿文章"></a>创建草稿文章</h2><pre><code>hexo publish [layout] &quot;filename&quot;
 </code></pre><h2 id="清除缓存和静态文件"><a href="#清除缓存和静态文件" class="headerlink" title="清除缓存和静态文件"></a>清除缓存和静态文件</h2><pre><code>hexo clean #主题切换/文章推送之前需要清空
 </code></pre><h2 id="生成静态页面"><a href="#生成静态页面" class="headerlink" title="生成静态页面"></a>生成静态页面</h2><pre><code>hexo generate #缩写 hexo g
@@ -455,7 +439,7 @@ busuanzi/2.3/busuanzi.pure.mini.js&quot;&gt;&lt;/script&gt;
 <pre><code>&lt;span id=&quot;busuanzi_container_site_uv&quot;&gt;
 本站访客数&lt;span id=&quot;busuanzi_value_site_uv&quot;&gt;&lt;/span&gt;人次
 &lt;/span&gt;
-</code></pre><h1 id="细节优化"><a href="#细节优化" class="headerlink" title="细节优化"></a>细节优化</h1><h1 id="未完待续"><a href="#未完待续" class="headerlink" title="未完待续"></a>未完待续</h1><h2 id="添加Algolia搜索框"><a href="#添加Algolia搜索框" class="headerlink" title="添加Algolia搜索框"></a>添加Algolia搜索框</h2><h2 id="手动文章摘要bug"><a href="#手动文章摘要bug" class="headerlink" title="手动文章摘要bug"></a>手动文章摘要bug</h2><p>文章摘要，手动使用<!--more-->截断时，点击阅读后文章后新页面不是从页头开始显示</p>
+</code></pre><h1 id="细节优化"><a href="#细节优化" class="headerlink" title="细节优化"></a>细节优化</h1><h1 id="未完待续"><a href="#未完待续" class="headerlink" title="未完待续"></a>未完待续</h1><h2 id="添加Algolia搜索框"><a href="#添加Algolia搜索框" class="headerlink" title="添加Algolia搜索框"></a>添加Algolia搜索框</h2><h2 id="手动文章摘要bug"><a href="#手动文章摘要bug" class="headerlink" title="手动文章摘要bug"></a>手动文章摘要bug</h2><p>文章摘要，手动使用<a id="more"></a>截断时，点击阅读后文章后新页面不是从页头开始显示</p>
 <h2 id="git-ssh代码更新不成功"><a href="#git-ssh代码更新不成功" class="headerlink" title="git ssh代码更新不成功"></a>git ssh代码更新不成功</h2>
       
     </div>
@@ -648,7 +632,7 @@ busuanzi/2.3/busuanzi.pure.mini.js&quot;&gt;&lt;/script&gt;
               
             
             
-              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#Hexo介绍"><span class="nav-number">1.</span> <span class="nav-text">Hexo介绍</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#环境搭建"><span class="nav-number">2.</span> <span class="nav-text">环境搭建</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#常用命令"><span class="nav-number">3.</span> <span class="nav-text">常用命令</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#创建新文章"><span class="nav-number">3.1.</span> <span class="nav-text">创建新文章</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#创建草稿文章"><span class="nav-number">3.2.</span> <span class="nav-text">创建草稿文章</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#清除缓存和静态文件"><span class="nav-number">3.3.</span> <span class="nav-text">清除缓存和静态文件</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#生成静态页面"><span class="nav-number">3.4.</span> <span class="nav-text">生成静态页面</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#启动服务器"><span class="nav-number">3.5.</span> <span class="nav-text">启动服务器</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#部署网站"><span class="nav-number">3.6.</span> <span class="nav-text">部署网站</span></a></li></ol></li><li class="nav-item nav-level-1"><a class="nav-link" href="#主题选择"><span class="nav-number">4.</span> <span class="nav-text">主题选择</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#代码托管部署"><span class="nav-number">5.</span> <span class="nav-text">代码托管部署</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#github-page"><span class="nav-number">5.1.</span> <span class="nav-text">github page</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#coding-page"><span class="nav-number">5.2.</span> <span class="nav-text">coding page</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#coding-演示"><span class="nav-number">5.3.</span> <span class="nav-text">coding 演示</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#部署参考"><span class="nav-number">5.4.</span> <span class="nav-text">部署参考</span></a></li></ol></li><li class="nav-item nav-level-1"><a class="nav-link" href="#功能添加"><span class="nav-number">6.</span> <span class="nav-text">功能添加</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#多说评论"><span class="nav-number">6.1.</span> <span class="nav-text">多说评论</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#百度统计"><span class="nav-number">6.2.</span> <span class="nav-text">百度统计</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#文章点击数leancloud"><span class="nav-number">6.3.</span> <span class="nav-text">文章点击数leancloud</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#添加网站访问数"><span class="nav-number">6.4.</span> <span class="nav-text">添加网站访问数</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#安装busyanzi-js脚本"><span class="nav-number">6.4.1.</span> <span class="nav-text">安装busyanzi.js脚本</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#显示统计标签"><span class="nav-number">6.4.2.</span> <span class="nav-text">显示统计标签</span></a></li></ol></li></ol></li><li class="nav-item nav-level-1"><a class="nav-link" href="#细节优化"><span class="nav-number">7.</span> <span class="nav-text">细节优化</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#未完待续"><span class="nav-number">8.</span> <span class="nav-text">未完待续</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#添加Algolia搜索框"><span class="nav-number">8.1.</span> <span class="nav-text">添加Algolia搜索框</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#手动文章摘要bug"><span class="nav-number">8.2.</span> <span class="nav-text">手动文章摘要bug</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#git-ssh代码更新不成功"><span class="nav-number">8.3.</span> <span class="nav-text">git ssh代码更新不成功</span></a></li></ol></li></ol></div>
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#Hexo介绍"><span class="nav-number">1.</span> <span class="nav-text">Hexo介绍</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#环境搭建"><span class="nav-number">2.</span> <span class="nav-text">环境搭建</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#Nodejs"><span class="nav-number">2.1.</span> <span class="nav-text">Nodejs</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#git"><span class="nav-number">2.2.</span> <span class="nav-text">git.</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#安装Hexo"><span class="nav-number">2.3.</span> <span class="nav-text">安装Hexo</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#安装"><span class="nav-number">2.3.1.</span> <span class="nav-text">安装</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#部署"><span class="nav-number">2.3.2.</span> <span class="nav-text">部署</span></a></li></ol></li></ol></li><li class="nav-item nav-level-1"><a class="nav-link" href="#常用命令"><span class="nav-number">3.</span> <span class="nav-text">常用命令</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#创建新文章"><span class="nav-number">3.1.</span> <span class="nav-text">创建新文章</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#创建草稿文章"><span class="nav-number">3.2.</span> <span class="nav-text">创建草稿文章</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#清除缓存和静态文件"><span class="nav-number">3.3.</span> <span class="nav-text">清除缓存和静态文件</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#生成静态页面"><span class="nav-number">3.4.</span> <span class="nav-text">生成静态页面</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#启动服务器"><span class="nav-number">3.5.</span> <span class="nav-text">启动服务器</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#部署网站"><span class="nav-number">3.6.</span> <span class="nav-text">部署网站</span></a></li></ol></li><li class="nav-item nav-level-1"><a class="nav-link" href="#主题选择"><span class="nav-number">4.</span> <span class="nav-text">主题选择</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#代码托管部署"><span class="nav-number">5.</span> <span class="nav-text">代码托管部署</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#github-page"><span class="nav-number">5.1.</span> <span class="nav-text">github page</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#coding-page"><span class="nav-number">5.2.</span> <span class="nav-text">coding page</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#coding-演示"><span class="nav-number">5.3.</span> <span class="nav-text">coding 演示</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#部署参考"><span class="nav-number">5.4.</span> <span class="nav-text">部署参考</span></a></li></ol></li><li class="nav-item nav-level-1"><a class="nav-link" href="#功能添加"><span class="nav-number">6.</span> <span class="nav-text">功能添加</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#多说评论"><span class="nav-number">6.1.</span> <span class="nav-text">多说评论</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#百度统计"><span class="nav-number">6.2.</span> <span class="nav-text">百度统计</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#文章点击数leancloud"><span class="nav-number">6.3.</span> <span class="nav-text">文章点击数leancloud</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#添加网站访问数"><span class="nav-number">6.4.</span> <span class="nav-text">添加网站访问数</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#安装busyanzi-js脚本"><span class="nav-number">6.4.1.</span> <span class="nav-text">安装busyanzi.js脚本</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#显示统计标签"><span class="nav-number">6.4.2.</span> <span class="nav-text">显示统计标签</span></a></li></ol></li></ol></li><li class="nav-item nav-level-1"><a class="nav-link" href="#细节优化"><span class="nav-number">7.</span> <span class="nav-text">细节优化</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#未完待续"><span class="nav-number">8.</span> <span class="nav-text">未完待续</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#添加Algolia搜索框"><span class="nav-number">8.1.</span> <span class="nav-text">添加Algolia搜索框</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#手动文章摘要bug"><span class="nav-number">8.2.</span> <span class="nav-text">手动文章摘要bug</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#git-ssh代码更新不成功"><span class="nav-number">8.3.</span> <span class="nav-text">git ssh代码更新不成功</span></a></li></ol></li></ol></div>
             
           </div>
         </section>

@@ -399,6 +399,46 @@
         
           <h1 id="Hexo介绍"><a href="#Hexo介绍" class="headerlink" title="Hexo介绍"></a>Hexo介绍</h1><p>Hexo是基于Nodejs开发的一个快速、简洁、高效、开源的静态博客框架，作者是来自台湾的大学生<a href="https://github.com/hexojs/hexo">@tommy351</a>。</p>
 <p>Hexo 使用 Markdown（或其他渲染引擎）解析文章，在几秒内，即可利用靓丽的主题生成静态网页。类似于jekyll、Octopress、Wordpress，使用hexo可以创建自己的博客，托管到github或gitcafe上，并且可以绑定自己的域名。</p>
+<h1 id="环境搭建"><a href="#环境搭建" class="headerlink" title="环境搭建"></a>环境搭建</h1><h2 id="Nodejs"><a href="#Nodejs" class="headerlink" title="Nodejs"></a><a href="https://nodejs.org/en/">Nodejs</a></h2><pre><code>- [Node.js 安装配置    ](http://www.runoob.com/nodejs/nodejs-install-setup.html)
+我这里使用的是windows，直接下载node-v4.4.3-x64.msi安装包安装即可。
+- NPM
+ Nodejs的包管理，windows的安装程序已经内置
+</code></pre><h2 id="git"><a href="#git" class="headerlink" title="git."></a><a href="https://git-scm.com/book/zh/v1/%E8%B5%B7%E6%AD%A5-%E5%AE%89%E8%A3%85-Git">git</a>.</h2><pre><code>- 官网下载安装即可
+- [git教程](https://git-scm.com/book/zh/v2/%E8%B5%B7%E6%AD%A5-%E5%85%B3%E4%BA%8E%E7%89%88%E6%9C%AC%E6%8E%A7%E5%88%B6)
+</code></pre><h2 id="安装Hexo"><a href="#安装Hexo" class="headerlink" title="安装Hexo"></a>安装Hexo</h2><h3 id="安装"><a href="#安装" class="headerlink" title="安装"></a>安装</h3><pre><code>mkdir hexo  #创建一个文件夹
+cd hexo
+npm install -g hexo-cli
+npm install hexo --save
+</code></pre><h3 id="部署"><a href="#部署" class="headerlink" title="部署"></a>部署</h3><pre><code>hexo init [folder] #新建一个网站
+</code></pre><h1 id="常用命令"><a href="#常用命令" class="headerlink" title="常用命令"></a>常用命令</h1><h2 id="创建新文章"><a href="#创建新文章" class="headerlink" title="创建新文章"></a>创建新文章</h2><pre><code>hexo new [layout] &quot;postName&quot; #新建文章
+</code></pre><h2 id="创建草稿文章"><a href="#创建草稿文章" class="headerlink" title="创建草稿文章"></a>创建草稿文章</h2><pre><code>hexo publish [layout] &quot;filename&quot;
+</code></pre><h2 id="清除缓存和静态文件"><a href="#清除缓存和静态文件" class="headerlink" title="清除缓存和静态文件"></a>清除缓存和静态文件</h2><pre><code>hexo clean #主题切换/文章推送之前需要清空
+</code></pre><h2 id="生成静态页面"><a href="#生成静态页面" class="headerlink" title="生成静态页面"></a>生成静态页面</h2><pre><code>hexo generate #缩写 hexo g
+</code></pre><h2 id="启动服务器"><a href="#启动服务器" class="headerlink" title="启动服务器"></a>启动服务器</h2><pre><code>hexo server #缩写 hexo s
+</code></pre><h2 id="部署网站"><a href="#部署网站" class="headerlink" title="部署网站"></a>部署网站</h2><pre><code>hexo deploy #缩写 hexo d
+</code></pre><p>##混合使用效率更高</p>
+<pre><code>hexo g --clean
+hexo d --g
+</code></pre><p>部署到Git需要配置根目录下的_config.yml文件，添加如下内容：</p>
+<pre><code>deploy:
+    type: git
+        repository: https://github.com/flyoo/flyoo.github.io.git
+    branch: master
+</code></pre><h1 id="主题选择"><a href="#主题选择" class="headerlink" title="主题选择"></a>主题选择</h1><h1 id="代码托管部署"><a href="#代码托管部署" class="headerlink" title="代码托管部署"></a>代码托管部署</h1><h2 id="github-page"><a href="#github-page" class="headerlink" title="github page"></a>github page</h2><h2 id="coding-page"><a href="#coding-page" class="headerlink" title="coding page"></a>coding page</h2><h2 id="coding-演示"><a href="#coding-演示" class="headerlink" title="coding 演示"></a>coding 演示</h2><h2 id="部署参考"><a href="#部署参考" class="headerlink" title="部署参考"></a>部署参考</h2><p><a href="http://shomy.top/2016/03/03/hexo-in-coding-github/" title="部署">代码部署</a></p>
+<h1 id="功能添加"><a href="#功能添加" class="headerlink" title="功能添加"></a>功能添加</h1><h2 id="多说评论"><a href="#多说评论" class="headerlink" title="多说评论"></a>多说评论</h2><h2 id="百度统计"><a href="#百度统计" class="headerlink" title="百度统计"></a>百度统计</h2><h2 id="文章点击数leancloud"><a href="#文章点击数leancloud" class="headerlink" title="文章点击数leancloud"></a>文章点击数leancloud</h2><p>貌似点击页面这个都会更新</p>
+<h2 id="添加网站访问数"><a href="#添加网站访问数" class="headerlink" title="添加网站访问数"></a>添加网站访问数</h2><h3 id="安装busyanzi-js脚本"><a href="#安装busyanzi-js脚本" class="headerlink" title="安装busyanzi.js脚本"></a>安装busyanzi.js脚本</h3><p>如果你使用NexT主题，其他的也类似，打开/theme/next/layout/_partial/footer.swig文件，拷贝下面的代码至文件中。</p>
+<pre><code>&lt;script async src=&quot;https://dn-lbstatics.qbox.me/
+busuanzi/2.3/busuanzi.pure.mini.js&quot;&gt;&lt;/script&gt;
+</code></pre><h3 id="显示统计标签"><a href="#显示统计标签" class="headerlink" title="显示统计标签"></a>显示统计标签</h3><p>把想要统计的数据标签放入<code>/theme/next/layout_partialfooter.swig</code>文件中</p>
+<p>显示pv统计量</p>
+<pre><code>&lt;span id=&quot;busuanzi_container_site_pv&quot;&gt;
+本站总访问量&lt;span id=&quot;busuanzi_value_site_pv&quot;&gt;&lt;/span&gt;次
+&lt;/span&gt;
+</code></pre><p>显示uv统计量</p>
+<pre><code>&lt;span id=&quot;busuanzi_container_site_uv&quot;&gt;
+本站访客数&lt;span id=&quot;busuanzi_value_site_uv&quot;&gt;&lt;/span&gt;人次
+&lt;/span&gt;
+</code></pre><h1 id="细节优化"><a href="#细节优化" class="headerlink" title="细节优化"></a>细节优化</h1><h1 id="未完待续"><a href="#未完待续" class="headerlink" title="未完待续"></a>未完待续</h1><h2 id="添加Algolia搜索框"><a href="#添加Algolia搜索框" class="headerlink" title="添加Algolia搜索框"></a>添加Algolia搜索框</h2><h2 id="手动文章摘要bug"><a href="#手动文章摘要bug" class="headerlink" title="手动文章摘要bug"></a>手动文章摘要bug</h2><p>文章摘要，手动使用
           <div class="post-more-link text-center">
             <a class="btn" href="/blog/2016/07/24/hexo-blog-build.html#more" rel="contents">
               阅读全文 &raquo;
