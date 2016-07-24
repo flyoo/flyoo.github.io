@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://www.myflyoo.xyz/"/>
-  <updated>2016-07-23T12:34:39.966Z</updated>
+  <updated>2016-07-24T07:02:56.878Z</updated>
   <id>http://www.myflyoo.xyz/</id>
   
   <author>
@@ -20,13 +20,12 @@
     <link href="http://www.myflyoo.xyz//blog/2016/07/23/my-blog.html"/>
     <id>http://www.myflyoo.xyz//blog/2016/07/23/my-blog.html</id>
     <published>2016-07-23T11:36:10.000Z</published>
-    <updated>2016-07-23T12:34:39.966Z</updated>
+    <updated>2016-07-24T07:02:56.878Z</updated>
     
     <content type="html"><![CDATA[<h2 id="hello-world"><a href="#hello-world" class="headerlink" title="hello,world!"></a>hello,world!</h2><blockquote>
 <p>每一次程序都是从这里开始，获得往上更多的分支和发展。</p>
 </blockquote>
-<h2 id="新博客上线啦"><a href="#新博客上线啦" class="headerlink" title="新博客上线啦"></a>新博客上线啦</h2><a id="more"></a>
-<p>在去尝试新的事情的时候都不知道会发生事情。只有去做才知道，之前听到过的一句话：</p>
+<h2 id="新博客上线啦"><a href="#新博客上线啦" class="headerlink" title="新博客上线啦"></a>新博客上线啦</h2><p>在去尝试新的事情的时候都不知道会发生事情。只有去做才知道，之前听到过的一句话：</p>
 <pre><code>整就牛！
 </code></pre><p>没有不想做，不愿做，只是不愿意去尝试，没有勇气；不要去限制自己，你能做的比你想得更多。</p>
 <h3 id="折腾"><a href="#折腾" class="headerlink" title="折腾"></a>折腾</h3><p>之前使用jekyll搭建的博客其实还没使用多久，现在又换成hexo的框架继续搭，确实折腾，但是就是喜欢这折腾的过程，从什么都不了解到发现大牛无数，这样的感觉很好去找到一群可以学习的对象，去激活自己的那颗折腾之心。</p>
@@ -36,9 +35,7 @@
     <summary type="html">
     
       &lt;h2 id=&quot;hello-world&quot;&gt;&lt;a href=&quot;#hello-world&quot; class=&quot;headerlink&quot; title=&quot;hello,world!&quot;&gt;&lt;/a&gt;hello,world!&lt;/h2&gt;&lt;blockquote&gt;
-&lt;p&gt;每一次程序都是从这里开始，获得往上更多的分支和发展。&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;h2 id=&quot;新博客上线啦&quot;&gt;&lt;a href=&quot;#新博客上线啦&quot; class=&quot;headerlink&quot; title=&quot;新博客上线啦&quot;&gt;&lt;/a&gt;新博客上线啦&lt;/h2&gt;
+&lt;p&gt;每一次程序都是从这里开始，获得往上更多
     
     </summary>
     
